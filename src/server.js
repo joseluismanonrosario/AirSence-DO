@@ -22,6 +22,9 @@ app.get("/contact", (req, res) => {res.render("./pages/contact")});
 
 app.get("/about_us", (req, res) => {res.render("./pages/about_us")});
 
+app.get("/404", (req, res) => {res.render("./pages/Error404")});
+
+
 app.listen(4000,()=>{console.log("Server en http://localhost:4000")});
 
 
