@@ -11,9 +11,6 @@ L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{
 }).addTo(map);
 
 
-
-
-
 // 27 con nuñez (sd)
 var circle = L.circle([18.451726, -69.961452], {
     color: 'red',
