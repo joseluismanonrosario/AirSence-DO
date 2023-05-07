@@ -12,13 +12,13 @@ L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{
 
 
 // 27 con nuñez (sd)
-var circle = L.circle([18.451726, -69.961452], {
+var circle = L.circle([18.454791, -69.954557], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>a.v 27 con a.v presidente Antonio Guzman</b>");
+circle.bindPopup("<b>a.v 27 con a.v Nuñes de Caceres</b>");
 
 //kennedy con gomez (sd)
 var circle1 = L.circle([18.481827, -69.914224], {
@@ -54,7 +54,7 @@ var circle4 = L.circle([18.499247, -69.922593], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>a.v Nicolas Ovando a.v Maximo Gomez</b>");
+circle4.bindPopup("<b>a.v Nicolas Ovando a.v Maximo Gomez</b>");
 
 //27 con isabela angula
 var circle5 = L.circle([18.451318, -69.979692], {
@@ -63,7 +63,7 @@ var circle5 = L.circle([18.451318, -69.979692], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>a.v 27 con a.v Isabela Angula</b>");
+circle5.bindPopup("<b>a.v 27 con a.v Isabela Angula</b>");
 
 //av.los beisbolistas
 var circle6 = L.circle([18.48549, -69.977481], {
@@ -72,7 +72,7 @@ var circle6 = L.circle([18.48549, -69.977481], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>a.v Los Beisbolistas</b>");
+circle6.bindPopup("<b>a.v Los Beisbolistas</b>");
 
 // los alcarrizos
 var circle7 = L.circle([18.502701, -69.998958], {
@@ -81,7 +81,7 @@ var circle7 = L.circle([18.502701, -69.998958], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>Los Alcarrizos</b>");
+circle7.bindPopup("<b>Los Alcarrizos</b>");
 
 //puente duarte 
 var circle8 = L.circle([18.486384, -69.884686], {
@@ -90,7 +90,7 @@ var circle8 = L.circle([18.486384, -69.884686], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>Puente Juan Pablo Duarte</b>");
+circle8.bindPopup("<b>Puente Juan Pablo Duarte</b>");
 
 //cafam
 var circle9 = L.circle([18.450158, -69.967804], {
@@ -99,7 +99,7 @@ var circle9 = L.circle([18.450158, -69.967804], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>Colegio CAFAM</b>");
+circle9.bindPopup("<b>Colegio CAFAM</b>");
 
 //plaza de la bandera
 var circle10 = L.circle([18.449741, -69.975078], {
@@ -108,7 +108,7 @@ var circle10 = L.circle([18.449741, -69.975078], {
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>Plaza de la bandera</b>");
+circle10.bindPopup("<b>Plaza de la bandera</b>");
 
 var polygon = L.polygon([
     [51.509, -0.08],
