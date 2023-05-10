@@ -10,15 +10,16 @@ L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{
 
 }).addTo(map);
 
-
 // 27 con nuñez (sd)
-var circle = L.circle([18.454791, -69.954557], {
+var circle = L.circle([18.451726, -69.961452], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 1,
     radius: 50
 }).addTo(map);
-circle.bindPopup("<b>a.v 27 con a.v Nuñes de Caceres</b>");
+circle.bindPopup("<b>a.v 27 de Febrero con a.v Nuñes de Caceres</b>");
+
+
 
 //kennedy con gomez (sd)
 var circle1 = L.circle([18.481827, -69.914224], {

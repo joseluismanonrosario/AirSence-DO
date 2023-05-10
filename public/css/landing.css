@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo.jpeg);
+    
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+}
+
+#logo{
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+#logo h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: flex-end;
+    color: #F1F4Ff;
+}
+
+#nav-bar{
+    float: right;
+    width: 650px;
+    height: 25.38px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#nav-bar a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #F1F4FF;
+    margin-left: 15px;
+}
+
+#nav-bar a:hover{
+    background: #28558A;
+}
+
+#info{
+    position: absolute;
+    width: 461px;
+    height: 413px;
+    left: 100px;
+    top: 140px;
+    background-color: #fff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;    
+    color: #F1F4FF;
+    letter-spacing: 0.04em;
+}
+
+#info h3{
+    text-align: center;
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-size: 20px; 
+}
+
+#info h1{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 2px;
+    line-height: 890x;
+    font-size: 80px;
+}
+
+#elipse{
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    left: 850px;
+    top: 150px;
+
+    border: 8px solid #7EC90D;
+    border-radius: 50%;
+}

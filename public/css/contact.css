@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb)
+}
+
+*, ::before, ::after {
+    box-sizing: border-box
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.eheader {
+    background-color: #3f3f3f;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 5px;
+}
+
+.ebody {
+    min-height: 250px;
+    padding: 10px 5px;
+
+}
+
+.ebody .input {
+    margin-bottom: 10px;
+}
+
+.ebody .input input, .ebody .input textarea {
+    width: 100%;
+}
+
+.ebody .input input:focus-visible, .ebody .input textarea:focus-visible {
+    outline: none;
+}
+
+.efooter {
+    background-color: #ededed;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.efooter button {
+    min-width: 100px;
+    background-color: #2373e1;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
