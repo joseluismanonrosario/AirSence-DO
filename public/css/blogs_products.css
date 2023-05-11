@@ -121,6 +121,7 @@ header nav ul li{
 #products-tienda{
 	background-attachment: fixed;
 	background-image: url(../img/background-img.png);
+	padding-bottom: 60px;
 }
 .space-justify{
 	justify-content: space-evenly;
@@ -151,6 +152,7 @@ header nav ul li{
 	height: 417px;
 	width: 45%;
 	justify-content: space-evenly;
+	filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.14));
 }
 .productos-info h3{
 	color: #8DADC9;
@@ -521,4 +523,67 @@ header nav ul li{
 .background-image6 div{
 	width: 70%;
 	padding: 40px;
+}
+footer{
+	background: linear-gradient(0deg, #0059FF 0%, #1FB7E7 100%);
+	color: #EAF5FF;
+}
+footer i{
+	width: 5%;
+}
+.social-media img {
+    padding: 0px 50px;
+}
+.footer-content{
+	padding: 0px 70px 0px 180px;
+}
+footer h2{
+	font-size: 16px;
+}
+.nave-footer a{
+	color: #EAF5FF;
+	display: block;
+	margin: 0px 0px 10px 0px;
+}
+footer h1{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+.ftblog-1{
+	background-image: url(../img/ep1-image.png);
+}
+.ftblog-2{
+	background-image: url(../img/ep2-image.png);
+}
+.ftblog-3{
+	background-image: url(../img/ep3-image.png);
+}
+.ftblog-4{
+	background-image: url(../img/ep4-image.png);
+}
+.footer-blog{
+	width: 154px;
+	height: 120px;
+	display: flex;
+	margin: 0px 5px 10px;
+}
+.footer-blog p{
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+}
+.space-justify-cont-img{
+	align-items: center;
+}
+.space-justify-cont-img p{
+	margin: 5px;
+}
+.justify{
+	justify-content: space-between;
+	border-top: 2px solid #539BFF;
+}
+.copyright{
+	text-align: center;
+	margin-top: 20px;
 }
