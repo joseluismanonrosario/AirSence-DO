@@ -180,7 +180,20 @@ infoAQI.update = function (props) {
 
 infoAQI.addTo(map);
 
+const aqiLevels = L.control({ position: 'bottomright' });
 
+aqiLevels.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'aqiLevel'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+aqiLevels.update = function (props) {
+    this._div.innerHTML =  `<a href="/"><img class="aqi_img" style="width: 300px;" src="./img/air_quality_index.png" alt="AQI"></a>`;
+};
+
+aqiLevels.addTo(map);
 // JS 
 const porValue=31;
 var chart = JSC.chart('chartDiv', { 
