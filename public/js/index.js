@@ -143,8 +143,7 @@ infoAQI.update = function (props) {
         </div>
     </div>
     <div class="info">
-        <p>Air quality is acceptable. However, there may be a risk for some people, particularly those who are unusually sensitive to air pollution.
-            Unhealthy for sensitive groups</p>
+        <p>Air quality is satisfactory, and air pollution poses little or no risk.</p>
     </div>
     <div class="components">
         <div class="row">
@@ -183,7 +182,7 @@ infoAQI.addTo(map);
 
 
 // JS 
-const porValue=48;
+const porValue=31;
 var chart = JSC.chart('chartDiv', { 
   debug: false, 
   type: 'gauge ', 
@@ -299,7 +298,7 @@ var chart = JSC.chart('PM_25', {
       { 
         type: 'column roundCaps', 
         name: 'PM2.5', 
-        points: [['PM2.5', 7.53]] 
+        points: [['PM2.5', 7.48]] 
       }
      
     ], 
@@ -337,7 +336,7 @@ var chart = JSC.chart('PM_10', {
       { 
         type: 'column roundCaps', 
         name: 'PM10', 
-        points: [['PM10', 7.53]] 
+        points: [['PM10', 17.1]] 
       }
      
     ], 
@@ -375,7 +374,7 @@ var chart = JSC.chart('SO2', {
       { 
         type: 'column roundCaps', 
         name: 'SO2', 
-        points: [['SO2', 7.53]] 
+        points: [['SO2', 27.4]] 
       }
      
     ], 
@@ -413,7 +412,7 @@ var chart = JSC.chart('NO2', {
       { 
         type: 'column roundCaps', 
         name: 'NO2', 
-        points: [['NO2', 7.53]] 
+        points: [['NO2', 18.1]] 
       }
      
     ], 
@@ -451,7 +450,7 @@ var chart = JSC.chart('O3', {
       { 
         type: 'column roundCaps', 
         name: 'O3', 
-        points: [['O3', 7.53]] 
+        points: [['O3', 25.3]] 
       }
      
     ], 
@@ -489,7 +488,7 @@ var chart = JSC.chart('CO', {
       { 
         type: 'column roundCaps', 
         name: 'CO', 
-        points: [['CO', 7.53]] 
+        points: [['CO', 330]] 
       }
      
     ], 
