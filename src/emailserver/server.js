@@ -8,8 +8,6 @@ const express = require('express'),
 
 dotenv.config()
 
-console.log(process.env.PRUEBA)
-
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(cors())
@@ -18,15 +16,16 @@ const mailgun = new Mailgun(formData);
 const client = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY});
 
 app.post('/api/email', (req, res) => {
-    const {to, subject, message} = req.body;
+    const {nombre, telefono, email, message} = req.body;
     const messageData = {
         from: 'Airsense <airsences3@gmail.com>',
-        to: `${to}`,
-        subject: `${subject}`,
+        nombre: `${nombre}`,
+        telefono: `${telefono}`,
+        email: `${email}`,
         text: `${message}`
       };    
 
-      client.messages.create(DOMAIN, messageData)
+      client.messages.create(process.env.MAILGUN_DOMAIN, messageData)
       .then((e) => {
         res.send({message: 'Email sent succesfully!'})
         console.log(e.message)

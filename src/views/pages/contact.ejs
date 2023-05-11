@@ -1,36 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Pagina Contactos</title>
-	<link rel="stylesheet" href="./css/contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacts.css">
 </head>
-
-
 <body>
+    <header>
+        <h2 class="logo"><b>Air</b><span>sense</span></h2>
 
-	<div class="form">
-		<form>
-			<div class="eheader"></div>
-			<div class="ebody">
-				<div class="input">
-					<input type="text" id="To" placeholder="To:" required>
-				</div>
-				<div class="input">
-					<input type="text" id="Subject" placeholder="Subject" required>
-				</div>
-				<div class="input">
-					<textarea id="message" rows="10" placeholder="Message" required></textarea>
-				</div>
-			</div>
-			<div class="efooter">
-				<button type="submit">Send</button>
-			</div>
-		</form>
-	</div>
+        <nav class="navigation">
+            <a href="/home">Home</a>
+            <a href="/products">Productos</a>
+            <a href="/about_us">Nosotros</a>
+            <a href="/blog">Blog-Learning</a>
+            <a href="/contact">Contactanos</a>
+        </nav>
+    </header>
+ 
+<div class="txtup">
+    <h3>Consulta tu ayuda<br><span>Contacto</span></h3>
 
-<script src="js/app.js"></script>
+</div>
+
+<div class="info-contact">
+    <div class="plants"></div>
+
+   <div class="titulo">
+    <h2>Contactos</h2>
+   </div>
+    
+<li>
+    <p><b>Email:  </b><span>Airsence3@gmail.com</span></p>
+    <p><b>Telefono:  </b><span>1+(809)-400-4245</span></p>
+    <p><b>@Airsense</b></p>
+    <p><b>@Airsense</b></p>
+    <p><b>@Airsense</b></p>
+    <p><b>@Airsense</b></p>
+</li>
+</div>
+
+<div class="form-map">
+
+    <form id="form">
+        <div class="input">
+            <label>Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="space-flex">
+            <div class="input input-complet">
+                <label for="tele">Telefono</label>
+                <input type="text" id="telefono" minlength="10" placeholder="Telefono" required>
+            </div>
+            <div class="input input-complet">
+                <label>Email</label>    
+                <input type="text" id="email" placeholder="Email" required>
+            </div>
+        </div>
+        <div class="input">
+            <label>Dejanos tu opinion</label>
+            <textarea placeholder="Mensaje" id="message" ></textarea>
+        </div>
+        <input type="submit" name="submit">
+    </form>
+
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1846067750043!2d-69.96877073037726!3d18.450181871085444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea561ede31aee25%3A0x87ef24c085e7b8cc!2sColegio%20Apec%20Fernando%20Arturo%20de%20Meri%C3%B1o%20(CAFAM)!5e0!3m2!1sen!2sdo!4v1683777532145!5m2!1sen!2sdo" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
 </body>
 
+<footer class="space-flex">
+    <div>
+        <img src="./img/logo-white-complete.png">
+    </div>
+    <section class="space-grid footer-content">
+        <div>
+            <h1>Siguenos en nuestras redes sociales</h1>
+            <div class="social-media space-flex">
+                <img src="./img/facebook.svg">
+                <img src="./img/twitter.svg">
+                <img src="./img/instagram.svg">
+                <img src="./img/youtube.svg">
+            </div>
+            <p>@AirSense</p>
+        </div>
+        <div class="space-flex justify">
+            <div>
+                <h2>CONTACTO</h2>
+                <div class="space-flex space-justify-cont-img">
+                    <img src="./img/email.png">
+                    <p><b>Email :</b> Airsense@gmail.com</p>
+                </div>
+                <div class="space-flex space-justify-cont-img">
+                    <img src="./img/mobile.png">
+                    <p><b>Telefono :</b> 1+ (809)-400-4245</p>
+                </div>
+            </div>
+            <div class="nave-footer">
+                <a href="/home">HOME</a>
+                <a href="/products">PRODUCTOS</a>
+                <a href="/about_us">NOSOTROS</a>
+                <a href="/contact">CONTACTS</a>
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2023 AirSense All Rights are reserved</p>
+    </section>
+    <section>
+        <h1>BLOG-LEARNING</h1>
+        <div class="space-flex">
+            <div>
+                <div class="footer-blog ftblog-1">
+                    <p>¿Qué es la contaminación del aire?</p>
+                </div>
+                <div class="footer-blog ftblog-3">
+                    <p>Dióxido de nitrógeno (NO2)</p>
+                </div>
+            </div>
+            <div>
+                <div class="footer-blog ftblog-2">
+                    <p>Ozono (O3)</p>
+                </div>
+                <div class="footer-blog ftblog-4">
+                    <p>¿Cómo podemos predecir la calidad del aire?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="./js/app.js"></script>
 </html>
