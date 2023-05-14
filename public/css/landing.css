@@ -1,6 +1,6 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0%;
+    margin: 0%;
 }
 
 body{
@@ -9,8 +9,8 @@ body{
 }
 
 #inicio{
-    width: 1365px;
-    height: 649px;
+    width: 1365%;
+    height: 649%;
     background-image: url(../img/fondo.jpeg);
 }
 
