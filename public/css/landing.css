@@ -9,7 +9,7 @@ body{
 }
 
 #inicio{
-    width: 1365px;
+    width: 100%;
     height: 649px;
     background-image: url(../img/fondo.jpeg);
 }
