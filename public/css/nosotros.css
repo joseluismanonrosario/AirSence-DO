@@ -178,6 +178,21 @@ body{
     border-radius: 100px 10px;
 }
 
+#moreinfo{
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    width: 510px;
+    height: 50px;
+    margin-left: 70px;
+    top: 756px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    border: 3px solid #7EC90D;
+    border-radius: 100px 10px;
+}
+
 #block3 img{
 
     width: 468px;
@@ -344,6 +359,7 @@ body{
 .space-flex{
 	display: flex;
 }
+
 footer{
 	background: linear-gradient(0deg, #0059FF 0%, #1FB7E7 100%);
 	color: #EAF5FF;
