@@ -6,13 +6,20 @@ body{
 	margin: 0px;
 	background-color: #F1F4FF;
 }
-header{
+.anuncio {
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
+  header{
 	padding-top: 5px;
 	display: flex;
 	width: 100%;
     justify-content: space-around;
     background-color: #F1F4FF;
 }
+
 a{
 	text-decoration: none;
 	font-weight: 600;
