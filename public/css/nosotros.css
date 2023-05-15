@@ -180,19 +180,22 @@ body{
 
 #moreinfo{
     font-family: 'Poppins';
-    text-decoration: none;
-    color: #EAF5FF;
     box-sizing: border-box;
-    display: flex;
     width: 510px;
-    height: 50px;
-    margin-left: 70px;
+    height: 90px;
+    margin-left: 400px;
     top: 756px;
     padding: 15px;
     margin-bottom: 15px;
     background-color: #0059FF;
     border: 3px solid #7EC90D;
     border-radius: 100px 10px;
+}
+
+#moreinfo a{
+    padding-left: 125px;
+    text-decoration: none;
+    color: #EAF5FF;
 }
 
 #block3 img{
