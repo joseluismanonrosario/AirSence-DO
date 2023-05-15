@@ -179,6 +179,7 @@ body{
 }
 
 #moreinfo{
+    font-family: 'Poppins';
     text-decoration: none;
     color: #EAF5FF;
     box-sizing: border-box;
@@ -189,7 +190,7 @@ body{
     top: 756px;
     padding: 15px;
     margin-bottom: 15px;
-
+    background-color: #0059FF;
     border: 3px solid #7EC90D;
     border-radius: 100px 10px;
 }
